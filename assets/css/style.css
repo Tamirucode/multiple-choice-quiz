@@ -17,5 +17,12 @@ body{
     line-height: 80px;
     background-color: lightgreen;
     height: 80px;
+}
 
+/*-------------quizlayout----------------------*/ 
+.quiz-container {
+    background-color: #fff;
+    height: 353px;
+    
+    
 }
