@@ -1,7 +1,7 @@
-/*list of arry objects
- *using object literals to represent the individual questions
- *and an arry to hold all of the questions
-*/
+ /*list of arry objects
+ using object literals to represent the individual questions
+ and an arry to hold all of the questions
+ */
 const myQuestion = [
     {
         question:"1. what is the currency of Denmark?",
@@ -86,6 +86,19 @@ const myQuestion = [
 
 ];
 
-
+/*  Declare constant for DOM elements
+HTML elements and store references to them in variables.
+Using DOM method query selector all choiceElements
+and we store a referenes these elements
+*/
+const quiz = document.getElementById('quiz');
+const choiceEls = document.querySelectorAll('.choice');
+const questionEl = document.getElementById('question');
+const optionA = document.getElementById('optionA');
+const optionB = document.getElementById('optionB');
+const optionC = document.getElementById('optionC');
+const optionD = document.getElementById('optionD');
+const btnPrevious = document.getElementById('previous');
+const submit = document.getElementById('submit');
 
 
