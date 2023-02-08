@@ -195,3 +195,13 @@ h3, p{
         width: 90%;
     }
 }
+@media screen and (max-width: 337px){
+    .quiz-container{
+        height: 382px;
+    }
+    
+    #question{
+        width: 100%;
+        text-align: left;
+    }
+}
