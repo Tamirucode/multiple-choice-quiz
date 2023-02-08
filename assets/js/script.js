@@ -119,6 +119,18 @@ function loadQuiz() {
     optionD.innerText = currentQuizData.d;
    
 }
+function unselectedChoices() {
+    choiceEls.forEach(choiceEl => choiceEl.checked = false);
+}
+function selected() {
+    let choice;
+    choiceEls.forEach(choiceEl => {
+        if(choiceEl.checked) {
+            choice = choiceEl.id;
+        }
+    });
+    return choice;
+}
 
 
 
