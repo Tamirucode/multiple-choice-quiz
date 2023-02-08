@@ -103,3 +103,14 @@ h3, p{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+/*--------------------Media query-------- */
+
+@media screen and (max-width: 535px){
+    .quiz-container{
+        height: 383px;
+}
+    footer{
+        height: 120px;
+    }
+}
