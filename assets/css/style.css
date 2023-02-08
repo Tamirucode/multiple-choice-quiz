@@ -188,3 +188,10 @@ h3, p{
         height: 150px;
     }
 }
+
+@media screen and (max-width: 363px){
+    #question{
+        text-align: left;
+        width: 90%;
+    }
+}
