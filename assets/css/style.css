@@ -216,3 +216,33 @@ h3, p{
         text-align: left;
     }
 }
+
+@media screen and (max-width: 322px){
+    .wrapper {
+         height: 600px;
+         margin-top: auto;
+         margin-bottom: auto;
+    }
+ 
+    .heading{
+         height: 50px;
+         line-height: 50px;
+         font-size: 25px;
+         margin-top: 50px;
+    }
+    
+    .quiz-container{
+         height: 370px;
+    }
+    
+    #question{
+         font-size: 20px;
+         width: 90% ;
+         height: 80px;
+    }
+ 
+    footer{
+         height: 150px;
+         margin: auto;
+    }
+}
