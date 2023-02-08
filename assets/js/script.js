@@ -101,4 +101,21 @@ const optionD = document.getElementById('optionD');
 const btnPrevious = document.getElementById('previous');
 const submit = document.getElementById('submit');
 
+//initial value of created variables
+let currentQuiz = 0;
+let score = 0;
 
+//using load quiz function
+//setting output variables
+
+
+
+
+
+//below using the javascript forEach method which loop over each element in the alts variable
+//used for both selected and unselected choiceElements.
+/** 
+*code taken from www.gamedevacademy.org
+*alts.forEach(function(element,index){
+*element.textContent=q.alternatives[index]} 
+*/
