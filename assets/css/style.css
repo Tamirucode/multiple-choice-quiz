@@ -253,3 +253,26 @@ h3, p{
         text-align: left;
     }
 }
+
+/*-------smaller device like galaxy fold*/
+@media screen and (max-width: 292px){
+    .quiz-container{
+        height: 370px;
+    }
+    
+    .heading{
+        height: 60px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    
+    #question{
+        text-align: left;
+        width: 90%;
+        font-size: 20px;
+    }
+    
+    footer{
+        height: 160px;
+    }
+}
