@@ -10,12 +10,44 @@
     <title>Multiple Choice Quiz</title>
     
 </head>
-<script src="assets/js/script.js"></script>
-<body>
 
-    <section>
-        <h1 class="heading">Multiple Choice Quiz</h1> 
-    </section>
-    
+<body>
+        <div class="wrapper">
+            <section>
+                <h1 class="heading">Multiple Choice Quiz</h1> 
+            </section>
+
+<!--HTML DOM element quiz holder reference to my javscript code fie, question-->       
+            <div class="quiz-container" id="quiz">
+                <h2 id="question">Question Text</h2>
+                    <ul>
+                        <li>
+<!--HTML DOM elements a reference to my javascript code file, class of choice-->               
+                        <input type="radio" name="choice" id="a" class="choice">
+                        <label for="a" id="optionA">Choice</label>
+                        </li>
+                        <li>
+                        <input type="radio" name="choice" id="b" class="choice">
+                        <label for="b" id="optionB">Choice</label>
+                        </li>
+                        <li>
+                        <input type="radio" name="choice" id="c" class="choice">
+                        <label for="c" id="optionC">Choice</label>
+                        </li>
+                        <li>
+                        <input type="radio" name="choice" id="d" class="choice">
+                        <label for="d" id="optionD">Choice</label>
+                        </li>
+                    </ul>
+ <!--HTML DOM elements a reference to my javascript code file buttons, for submit an answer and previous question-->
+                    <button id="previous" class="btn-active">Previous Question</button>
+                    <button id="submit" class="btn-active">Submit Answer</button>
+            </div> 
+            <footer>
+                <h3>Instructions: Maximum score is 10 points</h3>
+                <p>The quiz contains 10 questions and you will get  1 point each correct answer. At the end of the quiz, your total score and feedback will be displayed.</p>
+            </footer>
+        </div> 
+        <script src="assets/js/script.js"></script>  
 </body>
 </html>
