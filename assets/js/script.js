@@ -132,6 +132,107 @@ function selected() {
     return choice;
 }
 
+// add event listner to submit button
+submit.addEventListener('click', () => {
+    const choice = selected();
+    
+    if(choice) {
+       if(choice === myQuestion[currentQuiz].Correct) {
+           score++;
+       }
+      currentQuiz++;
+       if(currentQuiz < myQuestion.length) {
+           loadQuiz();
+       } else if (score === myQuestion.length) {
+ //using temperate literals user score=10      
+                quiz.innerHTML = `
+                <h2>Congratulations! <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+        } else if (score === 9) {
+//add temperate literals  user score=9     
+                quiz.innerHTML = `
+                <h2>Very Good! <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick ="location.reload()">Try Again</button>
+                `;
+        } else if (score === 8) {
+//using temperate literals user score=8     
+                quiz.innerHTML = `
+                <h2>Good! <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+        } else if (score === 7) {
+//using temperate literals user score=7   
+                quiz.innerHTML = `
+                <h2>Almost there! <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+        } else if (score === 6) {
+//using temperate literals user score=6    
+                quiz.innerHTML = `
+                <h2>That is just ok! <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+        } else if (score === 5) {
+//using temperate literals user score=5   
+                quiz.innerHTML = `
+                <h2>Just you passed! <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+        } else if (score === 4) {
+//using temperate literals user score=4    
+                quiz.innerHTML = `
+                <h2>You failed but do it again <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+        } else if (score === 3) {
+//using temperate literals user score=3   
+                quiz.innerHTML = `
+                <h2>You failed but do it again <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;                
+         } else if (score === 2) {
+//using temperate literals user score=2   
+                quiz.innerHTML = `
+                <h2>You failed but do it again <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+         } else if (score === 1) {
+//using temperate literals user score=1   
+                quiz.innerHTML = `
+                <h2>You failed but do it again <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+        } else if (score === 0) {
+//using temperate literals user score=0   
+                quiz.innerHTML = `
+                <h2>You really need to do better <br/>You scored   ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+        } else {
+                quiz.innerHTML = `
+                <h2>You got ${score}/${myQuestion.length} </h2>
+                <h2>  ${(score/myQuestion.length)*100}% </h2>
+                <button onclick = "location.reload()">Try Again</button>
+                `;
+       }
+  
+  
+    }
+
+});
+
 
 
 //below using the javascript forEach method which loop over each element in the alts variable
