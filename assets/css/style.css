@@ -31,3 +31,14 @@ body{
     color: blue;
     font-size: 25px;
 }
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+label{
+    font-size: 18px;
+    font-family: inherit;
+    cursor: pointer;
+}
