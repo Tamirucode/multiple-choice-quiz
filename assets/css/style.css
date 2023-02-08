@@ -23,6 +23,11 @@ body{
 .quiz-container {
     background-color: #fff;
     height: 353px;
-    
-    
+}
+
+#question{
+    padding: 16px 16px;
+    text-align: center;
+    color: blue;
+    font-size: 25px;
 }
