@@ -246,3 +246,10 @@ h3, p{
          margin: auto;
     }
 }
+
+@media screen and (max-width: 303px){
+    #question{
+        width: 100%;
+        text-align: left;
+    }
+}
