@@ -114,3 +114,23 @@ h3, p{
         height: 120px;
     }
 }
+
+@media screen and (max-width: 425px){
+    .wrapper {
+        height: 530px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .heading{
+        margin-top: 15px;
+    }
+
+    .quiz-container{
+        height: 383px;
+    }
+
+    footer{
+        height: 150px;
+    }
+}
