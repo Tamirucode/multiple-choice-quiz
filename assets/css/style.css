@@ -109,7 +109,7 @@ h3, p{
 @media screen and (max-width: 535px){
     .quiz-container{
         height: 383px;
-}
+    }
     footer{
         height: 120px;
     }
@@ -132,5 +132,32 @@ h3, p{
 
     footer{
         height: 150px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .wrapper {
+        height: 650px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }       
+    
+    .heading{
+        margin-top: 100px;
+    }
+    
+    .quiz-container{
+        height: 383px;
+    }
+
+    footer{
+        height: 160px;
+        margin: auto;
+    }
+
+    #question{
+        padding-top: 0;
+        width: 90%;
+        height: 76px;
     }
 }
