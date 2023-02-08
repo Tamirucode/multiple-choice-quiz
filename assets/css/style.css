@@ -205,3 +205,14 @@ h3, p{
         text-align: left;
     }
 }
+
+@media screen and (max-width: 343px){
+    .heading{
+        font-size: 25px;
+    }
+    
+    #question{
+        width: 90%;
+        text-align: left;
+    }
+}
