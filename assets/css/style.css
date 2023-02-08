@@ -83,3 +83,15 @@ button:hover{
     background-color: slategrey;
 }
 
+footer{
+    font-size: 15px;
+    color: black ;
+    padding: 5px 5px;
+    background-color: chocolate;
+    height: 80px;
+    margin: auto;
+}
+
+h3, p{
+    padding: 5px 5px;
+}
