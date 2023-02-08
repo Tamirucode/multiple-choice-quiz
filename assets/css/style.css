@@ -42,3 +42,19 @@ label{
     font-family: inherit;
     cursor: pointer;
 }
+
+ul li{
+    background-color: #e7e9eb;
+    padding: 10px 10px ;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+ul li:hover{
+    border: solid 1px black;
+}
+
+ul li:hover{
+    
+    background-color: #fff;
+}
