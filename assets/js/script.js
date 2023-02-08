@@ -108,7 +108,17 @@ let score = 0;
 //using load quiz function
 //setting output variables
 
-
+loadQuiz();
+function loadQuiz() {
+    unselectedChoices();
+    let currentQuizData = myQuestion[currentQuiz];
+    questionEl.innerText = currentQuizData.question;
+    optionA.innerText = currentQuizData.a;
+    optionB.innerText = currentQuizData.b;
+    optionC.innerText = currentQuizData.c;
+    optionD.innerText = currentQuizData.d;
+   
+}
 
 
 
