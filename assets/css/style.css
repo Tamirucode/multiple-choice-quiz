@@ -1,0 +1,11 @@
+/*-------------clear default margin,padding by bowser------*/
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #445364;
+}
