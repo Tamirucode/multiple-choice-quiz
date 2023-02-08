@@ -119,6 +119,14 @@ function loadQuiz() {
     optionD.innerText = currentQuizData.d;
    
 }
+
+//below using the javascript forEach method which loop over each element in the alts variable
+//used for both selected and unselected choiceElements.
+/** 
+*code taken from www.gamedevacademy.org
+*alts.forEach(function(element,index){
+*element.textContent=q.alternatives[index]} 
+*/
 function unselectedChoices() {
     choiceEls.forEach(choiceEl => choiceEl.checked = false);
 }
@@ -227,6 +235,16 @@ submit.addEventListener('click', () => {
                 <button onclick = "location.reload()">Try Again</button>
                 `;
        }
+    //add event listener previous button 
+function previousQuestion(){
+    if(currentQuiz === 0){
+        alert("there is no page when you back");
+    }else{
+        currentQuiz--;
+        loadQuiz();
+    }
+}
+btnPrevious.addEventListener('click',previousQuestion);
   
   
     }
@@ -235,10 +253,4 @@ submit.addEventListener('click', () => {
 
 
 
-//below using the javascript forEach method which loop over each element in the alts variable
-//used for both selected and unselected choiceElements.
-/** 
-*code taken from www.gamedevacademy.org
-*alts.forEach(function(element,index){
-*element.textContent=q.alternatives[index]} 
-*/
+
