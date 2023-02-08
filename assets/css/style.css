@@ -9,3 +9,13 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #445364;
 }
+
+/* -------------heading style---------------- */
+.heading{
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    background-color: lightgreen;
+    height: 80px;
+
+}
