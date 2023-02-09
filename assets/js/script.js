@@ -235,7 +235,13 @@ submit.addEventListener('click', () => {
                 <button onclick = "location.reload()">Try Again</button>
                 `;
        }
-    //add event listener previous button 
+    
+  
+    }
+
+});
+
+//add event listener previous button 
 function previousQuestion(){
     if(currentQuiz === 0){
         alert("there is no page when you back");
@@ -246,11 +252,5 @@ function previousQuestion(){
 }
 btnPrevious.addEventListener('click',previousQuestion);
   
-  
-    }
-
-});
-
-
 
 
