@@ -26,6 +26,8 @@ with family and friends. The site will allow for assessing the general knowledge
             
      This section is an interactive button the user can click to go back 
      to the previous question to adjust their correct choice
+![image](https://user-images.githubusercontent.com/116649197/217960228-19c061e5-3550-45b1-a125-b98c49b50983.png)
+
 
   **Submit button**
      
@@ -59,16 +61,6 @@ with family and friends. The site will allow for assessing the general knowledge
 - I confirmed that this quiz is responsive,  looks great, and functions 
     on all screen sizes by using extensive media query and dev tools
 
-**Bugs**
-	
-    solved bugs
-	when I ran the js file I discovered some warnings my js code 
-    at the end missed a semicolon and then fix the issue
-
-    Unfixed Bugs
-	No unfixed bugs
-
-
 **Validator Testing**
 				
     HTML
@@ -84,6 +76,17 @@ with family and friends. The site will allow for assessing the general knowledge
 - The function with the largest signature takes 1 argument, while the median is 0.
 - The largest function has 19 statements in it, while the median is 3.
 - The most complex function has a cyclomatic complexity value of 15 while the median is 1.
+
+
+**Bugs**
+	
+    solved bugs
+	when I ran the js file I discovered some warnings my js code 
+    at the end missed a semicolon and then fix the issue
+
+    Unfixed Bugs
+	No unfixed bugs
+
 			
 **Deployment**
 
