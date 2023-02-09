@@ -12,6 +12,7 @@ with family and friends. The site will allow for assessing the general knowledge
 			
      At the top of the first question, the heading shows the quiz type: Multiple choice
 	 This heading tells the user what type of quiz is doing 
+![image](https://user-images.githubusercontent.com/116649197/217958869-b1445efe-6bf4-4bc9-8e54-9b7dace05f6a.png)
 			
    **The quiz options**
 			
