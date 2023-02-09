@@ -19,6 +19,8 @@ with family and friends. The site will allow for assessing the general knowledge
      The quiz option opens a new window  and, each question comes with four choices.
  	 There is only one of these four correct choices. The choices are radio buttons 
      that the user can click to make their selection.
+![image](https://user-images.githubusercontent.com/116649197/217959756-4353f6c8-b1a4-4f83-9928-9d77ae2c895e.png)
+
 
   **Previou Question button**
             
