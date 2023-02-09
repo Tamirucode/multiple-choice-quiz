@@ -105,6 +105,17 @@ h3, p{
 }
 
 /*--------------------Media query-------- */
+@media screen and (max-width: 1920px){
+    .wrapper{
+        margin-top:270px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .wrapper{
+        margin-top:195px;
+    }
+}
 
 @media screen and (max-width: 535px){
     .quiz-container{
@@ -219,31 +230,46 @@ h3, p{
 
 @media screen and (max-width: 322px){
     .wrapper {
-         height: 600px;
-         margin-top: auto;
-         margin-bottom: auto;
+        height: 630px;
     }
- 
-    .heading{
-         height: 50px;
-         line-height: 50px;
-         font-size: 25px;
-         margin-top: 50px;
+
+   .heading{
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        margin-top: 20px;
     }
-    
+   
     .quiz-container{
-         height: 370px;
+        height: 306px;
+    }
+   
+    #question{
+        font-size: 20px;
+        width: 90% ;
+        height: 80px;
     }
     
-    #question{
-         font-size: 20px;
-         width: 90% ;
-         height: 80px;
+    ul li{
+        padding: 5px 5px;
+        margin-bottom: 3px;
+        font-size: 18px;
     }
- 
+     
+    .btn-active{
+        font-size: 15px;
+        height: 40px;
+    }
+    
+    button{
+        font-size: 18px;
+        height: 40px;
+    }
+
     footer{
-         height: 150px;
-         margin: auto;
+        height: 80px;
+        text-align: center;
+        font-size: 10px;
     }
 }
 
