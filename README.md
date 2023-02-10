@@ -109,7 +109,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows
 3. after that under the  pages you will see the live page is published
   just after a few seconds the page gives us a link.
 
-![The live link can be found here] (https://tamirucode.github.io/multiple-choice-quiz/)
+[The live link can be found here](https://tamirucode.github.io/multiple-choice-quiz/)
 
 **Technology used**
 
@@ -123,7 +123,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows
 **Frameworks, Library and Program**
 1. Hover: CSS
 2. Google fonts
-4. Git
+3. Git
 	used Git terminal to commit to Git and push to Git hub
 5.GitHub
 	store the project code after being pushed from Git
