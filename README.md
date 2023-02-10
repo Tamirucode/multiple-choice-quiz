@@ -63,6 +63,9 @@ with family and friends. The site will allow for assessing the general knowledge
 - I tested doing this quiz in different browsers: Chrome, Firefox, Safari,
 - I confirmed that colors and fonts are easy to read and accessible 
     by running the lighthouse test
+![image](https://user-images.githubusercontent.com/116649197/218002956-ee2f4e64-226f-428a-adc8-83007fc48d72.png)
+  
+    
 - I confirmed that this quiz is responsive,  looks great, and functions 
     on all screen sizes by using extensive media query and dev tools
 
