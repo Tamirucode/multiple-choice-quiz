@@ -75,6 +75,7 @@ with family and friends. The site will allow for assessing the general knowledge
 			
     CSS
 - No errors were returned when passing through the official (Jigsaw)validator
+![image](https://user-images.githubusercontent.com/116649197/218002435-bef2d6f4-b5b5-49da-b44a-7017b3e39471.png)
 
     JavaScript
 - No errors were found when passing through the official Jshint validator
