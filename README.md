@@ -50,6 +50,8 @@ with family and friends. The site will allow for assessing the general knowledge
 			
     It shows instructions for the quiz
     It contains information about  how the user score is calculated 
+![image](https://user-images.githubusercontent.com/116649197/218001210-9e1c122a-f130-44cc-8b05-808710271233.png)
+
 
 **Features left to implement**
 			
