@@ -41,8 +41,10 @@ with family and friends. The site will allow for assessing the general knowledge
 
      when the user clicks submit button after doing all questions, the score and 
      feedback will be displayed
-	 The javascript code calculates the user's correct answer with 
+     The javascript code calculates the user's correct answer with 
      corresponding feedback
+![image](https://user-images.githubusercontent.com/116649197/218000700-b34f186b-574c-48cf-a91f-938fee1df236.png)
+
 
 **The Footer**
 			
