@@ -34,6 +34,7 @@ with family and friends. The site will allow for assessing the general knowledge
      This section provides an interactive submit button the user can click the choice, 
      if it is correct add points.I have also added a feature that will allow the page to
      jump to the next question once an option is selected from the list of choice options.
+![image](https://user-images.githubusercontent.com/116649197/217998953-c04e9284-387d-4d21-b928-97c3296c798c.png)
 			
 
 **Quiz score**			
