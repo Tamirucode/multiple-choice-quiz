@@ -109,7 +109,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows
 3. after that under the  pages you will see the live page is published
   just after a few seconds the page gives us a link.
 
-The live link can be found here 
+![The live link can be found here] (https://tamirucode.github.io/multiple-choice-quiz/)
 
 **Technology used**
 
@@ -132,9 +132,10 @@ The live link can be found here
 **Credits**
 
   Code
+     
      MDN web docs
      love maths project
-	 www.w3schools.com
+     www.w3schools.com
 
 **content**
  
