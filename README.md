@@ -49,7 +49,7 @@ with family and friends. The site will allow for assessing the general knowledge
 **The Footer**
 			
     It shows instructions for the quiz
-    It contains information about  how the user score is calculated 
+    It contains information about how many question in the quiz and how the user score is calculated 
 ![image](https://user-images.githubusercontent.com/116649197/218001210-9e1c122a-f130-44cc-8b05-808710271233.png)
 
 
@@ -71,33 +71,33 @@ with family and friends. The site will allow for assessing the general knowledge
 
 **Validator Testing**
 				
-    HTML
-- No errors were returned when passing through the official w3c validator
+ - HTML
+    - No errors were returned when passing through the official w3c validator
 ![image](https://user-images.githubusercontent.com/116649197/218001832-3304e0ef-77c8-41d2-8482-2b92b6253558.png)
 
 			
-    CSS
-- No errors were returned when passing through the official (Jigsaw)validator
+ - CSS
+    - No errors were returned when passing through the official (Jigsaw)validator
 ![image](https://user-images.githubusercontent.com/116649197/218002435-bef2d6f4-b5b5-49da-b44a-7017b3e39471.png)
 
-    JavaScript
-- No errors were found when passing through the official Jshint validator
-   
-  The following metrics were returned:
-- There are 7 functions in this file.
-- The function with the largest signature takes 1 argument, while the median is 0.
-- The largest function has 19 statements in it, while the median is 3.
-- The most complex function has a cyclomatic complexity value of 15 while the median is 1.
+ - JavaScript
+    - No errors were found when passing through the official Jshint validator
+         
+	 - The following metrics were returned:
+         - There are 7 functions in this file.
+         - The function with the largest signature takes 1 argument, while the median is 0.
+         - The largest function has 19 statements in it, while the median is 3.
+         - The most complex function has a cyclomatic complexity value of 15 while the median is 1.
 
 
 **Bugs**
 	
-    solved bugs
-	when I ran the js file I discovered some warnings my js code 
-    at the end missed a semicolon and then fix the issue
+   - solved bugs
+      - when I ran the js file I discovered some warnings my js code 
+         at the end missed a semicolon and then fix the issue
 
-    Unfixed Bugs
-	No unfixed bugs
+   - Unfixed Bugs
+      - No unfixed bugs
 
 			
 **Deployment**
@@ -124,26 +124,26 @@ The site was deployed to GitHub pages. The steps to deploy are as follows
 1. Hover: CSS
 2. Google fonts
 3. Git
-	used Git terminal to commit to Git and push to Git hub
-5.GitHub
-	store the project code after being pushed from Git
+    - used Git terminal to commit to Git and push to Git hub
+4. GitHub
+    - store the project code after being pushed from Git
 
 
 **Credits**
 
-  Code
+  - Code
      
-     MDN web docs
-     love maths project
-     www.w3schools.com
+     - MDN web docs
+     - love maths project
+     - www.w3schools.com
 
-**content**
+  - content
  
- The content is written by developer
+     - The content is written by developer
  
- Instruction on how to implement forEach method javascript
+     - Instruction on how to implement forEach method javascript
  for selected choice and unselected choices was taken from a specific 
  youtube tutorial and GameDevAcademy Zenva website.
  
- The load quiz function code to reload the quiz was taken from w3Schools 
+      - The load quiz function code to reload the quiz was taken from w3Schools 
 
