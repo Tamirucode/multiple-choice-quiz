@@ -70,13 +70,16 @@ with family and friends. The site will allow for assessing the general knowledge
 				
     HTML
 - No errors were returned when passing through the official w3c validator
+![image](https://user-images.githubusercontent.com/116649197/218001832-3304e0ef-77c8-41d2-8482-2b92b6253558.png)
+
 			
-	Css
+    CSS
 - No errors were returned when passing through the official (Jigsaw)validator
 
     JavaScript
 - No errors were found when passing through the official Jshint validator
-    The following metrics were returned:
+   
+  The following metrics were returned:
 - There are 7 functions in this file.
 - The function with the largest signature takes 1 argument, while the median is 0.
 - The largest function has 19 statements in it, while the median is 3.
